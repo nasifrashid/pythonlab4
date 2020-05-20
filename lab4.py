@@ -1,10 +1,7 @@
 import os
 
 def walk(dirname):
-    """Prints the names of all files in dirname and its subdirectories.
 
-    dirname: string name of directory
-    """
     for name in os.listdir(dirname):
         path = os.path.join(dirname, name)
 
@@ -15,10 +12,7 @@ def walk(dirname):
 
 
 def walk2(dirname):
-    """Prints the names of all files in dirname and its subdirectories.
 
-    dirname: string name of directory
-    """
     for root, dirs, files in os.walk(dirname):
         for filename in files:
             print (os.path.join(root, filename))
