@@ -1,3 +1,7 @@
+"""
+with the help from book solution
+"""
+
 import os
 
 def get_mp3_files(dirname):

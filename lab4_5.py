@@ -1,3 +1,6 @@
+"""
+with the help from book solution
+"""
 def sed(pattern, replacement, readfile, writefile):
     try:
         r = open(readfile)
